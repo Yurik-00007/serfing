@@ -102,6 +102,15 @@ body {
     background-size: cover;
 }
 
+.header__top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #11302C;
+    z-index: 999;
+}
+
 .header__top-inner {
     display: flex;
     align-items: center;
@@ -970,7 +979,7 @@ body {
         left: 0;
         right: 0;
         top: 0;
-        background: #DEE5E4;
+        background: #11302C;
         display: block;
         text-align: center;
         transform: translateY(-200%);
@@ -988,7 +997,7 @@ body {
     .menu__list-link {
         display: block;
         padding: 15px 0;
-        color: #000
+        color: #fff
     }
 
     .logo {
@@ -1016,18 +1025,18 @@ body {
     }
 
     .header__top-inner.header__top-inner--active path {
-        fill: #0D302C;
+        fill: #fff;
     }
 
     .header__top-inner.header__top-inner--active .menu__btn rect {
-        fill: #0D302C;
+        fill: #fff;
     }
 
 
     .header__title {
         font-size: 100px;
         line-height: 120px;
-        margin-top: 350px;
+        margin-top: 450px;
         margin-bottom: 10px;
     }
 
@@ -1041,6 +1050,10 @@ body {
         line-height: 35px;
         margin-top: 50px;
         margin-bottom: 50px;
+        padding-top: 100px;
+    }
+    .conect__title{
+        padding-top: 140px;
     }
 
     .gallery__content {
